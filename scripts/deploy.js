@@ -24,12 +24,18 @@ async function main() {
     `SoloSwapToken deployed to ${soloSwapToken.address}`
   );
   //Mixed Swap Token
-  const MixedSwapToken = await hre.ethers.getContractFactory("MixedSwapToken");
-  const mixedSwapToken = await MixedSwapToken.deploy();
-  await mixedSwapToken.deployed();
-  console.log(
-    `MixedSwapToken deployed to ${mixedSwapToken.address}`
-  );
+  // const MixedSwapToken = await hre.ethers.getContractFactory("MixedSwapToken");
+  // const mixedSwapToken = await MixedSwapToken.deploy();
+  // await mixedSwapToken.deployed();
+  // console.log(
+  //   `MixedSwapToken deployed to ${mixedSwapToken.address}`
+  // );
+  //USE DATA
+  const StorageUserData = await hre.ethers.getContractFactory("UserDataStorage");
+  const storageUserData = await StorageUserData.deploy();
+
+  await storageUserData.deployed();
+  console.log(`UserStorageDataAddress = '${storageUserData.address}'`);
 }
 
 main().catch((error) => {

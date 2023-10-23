@@ -1,10 +1,23 @@
-import HeroSection from "./HeroSection/HeroSection";
+import SwapSection from "./SwapSection/SwapSection";
 import ListToken from "./ListToken/ListToken";
-import Model from "./Model/Model";
+import Connect from "./Connect/Connect";
 import NavigationBar from "./NavigationBar/NavigationBar";
-import Search from "./Search/Search";
-import Swap from "./Swap/Swap";
-import Token from "./Token/Token";
+import Search from "./SearchTok/SearchTok";
+import Swap from "./SwToggle/SwToggle";
+import TokenChoice from "./TokenChoice/TokenChoice";
+import ShowTok from "./ShowTok/ShowTok";
+import LiqPoolAdd from "./LiqPoolAdd/LiqPoolAdd";
+import LiqPoolConnect from "./LiqPoolConnect/LiqPoolConnect";
 
-
-export {HeroSection, ListToken, Model, NavigationBar, Search, Swap, Token };
+export {
+  SwapSection,
+  ListToken,
+  Connect,
+  NavigationBar,
+  Search,
+  Swap,
+  TokenChoice,
+  ShowTok,
+  LiqPoolAdd,
+  LiqPoolConnect,
+};

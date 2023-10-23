@@ -1,93 +1,112 @@
-import React, {useState, useEffect, useContext} from 'react'
-import Image from "next/image"
-import Link from "next/link"
-//IMPORT INTERNAL
-import Style from './NavigationBar.module.css'
-import images from '../../ima'
-import{Model, ListToken} from '../index'
+import React, { useState, useEffect, useContext } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Head from "next/head";
 
-//context
-import { SwapTokenContext } from '../../Context/SwapContext'
+//IMPORT INTERNAL
+import Style from "./NavigationBar.module.css";
+import images from "../../imagetotal";
+import { Connect, ListToken } from "../index";
+import IMAGE from "../index";
+
+//CONTEXT
+import { SwapTokenContext } from "../../Context/SwapContext";
 
 const NavigationBar = () => {
-  const { ether, account, networkConnect, connectWithWallet, tokenData } = useContext(SwapTokenContext)
-  const menuItem = [
+  const { ether, account, networkConnect, connectWallet, tokenData } =
+    useContext(SwapTokenContext);
+  const menuItems = [
     {
       name: "Swap",
-      link:"/",
+      link: "/",
     },
     {
       name: "Tokens",
-      link:"/",
+      link: "/",
     },
     {
       name: "Pools",
-      link:"/",
+      link: "/",
     },
   ];
+
   //USESTATE
-  const [openModel, setopenModel] = useState(false)
-  const [openTokenBox, setopenTokenBox] = useState(false)
-  //const[account, setAccount] = useState(false)
+  const [openModel, setOpenModel] = useState(false);
+  const [openTokenBox, setOpenTokenBox] = useState(false);
+  // const [account, setAccount] = useState (false);
+
   return (
     <div className={Style.NavigationBar}>
+      <Head>
+        <title>DRA_YSWAP Interface</title>
+      </Head>
       <div className={Style.NavigationBar_wrap}>
         <div className={Style.NavigationBar_wrap_left}>
-          {/*//Logo cua uniswap*/}
-          <div className={Style.NavigationBar_wrap_left_image}>
-            <Image src={images.uniswap} alt='logo network' width={50} height={50}/>
+          {/* //LOGO IMAGE  */}
+          <div className={Style.NavigationBar_wrap_left_img}>
+            <Image src={images.dra_yswap} alt="logo" width={50} height={50} />
           </div>
-           {/*//Menu*/}
+          {/* MENU ITEMS */}
           <div className={Style.NavigationBar_wrap_left_menu}>
-            {menuItem.map((el, i)=>(
-              <Link
-              key={i+1}
-              href = {{pathname: `${el.name}`, query: `${el.link}` }}>
-                <p className={Style.NavigationBar_wrap_left_menu_item}>{el.name}</p>
-              </Link>
+            {menuItems.map((el, i) => (
+              <div>
+                <Link key={i + 1} href={{ pathname: `${el.name}` }}>
+                  <p className={Style.NavigationBar_wrap_left_menu_item}>{el.name}</p>
+                </Link>
+              </div>
             ))}
+            <div>
+              <a
+                href=""
+                target="_blank"
+              >
+                <p className={Style.NavigationBar_wrap_left_menu_item}>Market</p>
+              </a>{" "}
+            </div>
+            <div>
+              <a href="http://127.0.0.1:5500/file_static/index.html">
+                <p className={Style.NavigationBar_wrap_left_menu_item}>Introduce</p>
+              </a>{" "}
+            </div>
           </div>
         </div>
-         {/*//Phan o giua(mid section)*/}
-        <div className={Style.NavigationBar_wrap_mid}>
-            <div className={Style.NavigationBar_wrap_mid_search}>
-              <div className={Style.NavigationBar_wrap_mid_search_image}>
-                <Image src={images.lookup} alt="search" width={20} height={20}/>
-              </div>
-               {/*//Phan nhap vao(input)*/}
-               <input type="text" placeholder="Search Tokens"/>
-            </div>
-        </div>
-        {/*//Phan ben phai(right section)*/}
+        <div></div>
+
+        {/* //RIGHT SECTION */}
         <div className={Style.NavigationBar_wrap_right}>
-          <div className={Style.NavigationBar_wrap_right_box}>
-            <div className={Style.NavigationBar_wrap_right_box_image}>
-              <Image src={images.ethnw} alt="Network" height={30} width={30}/>
+          <div className={Style.NavigationBar_wrap_right_wrap}>
+            <div className={Style.NavigationBar_wrap_right_wrap_img}>
+              <Image
+                src={images.networksw}
+                alt="NetWork"
+                height={30}
+                width={30}
+              />
             </div>
+
             <p>{networkConnect}</p>
           </div>
-          {
-            account ? (
-              <button onClick={()=>setopenTokenBox(true)}>
-                {account.slice(0,20)}...
-              </button>
-              ) : (
-              <button onClick={()=>setopenModel(true)}>Connect</button>
-                )
-          }
-        
+
+          {account ? (
+            <button onClick={() => setOpenTokenBox(true)}>
+              {account.slice(0, 10)}...{" "}
+            </button>
+          ) : (
+            <button onClick={() => setOpenModel(true)}>Connect</button>
+          )}
+
           {openModel && (
-            <Model setopenModel={setopenModel} connectWallet={connectWithWallet}/>
+            <Connect setOpenModel={setOpenModel} connectWallet={connectWallet} />
           )}
         </div>
       </div>
 
-       {/*//Danh sach token tren he thong*/}
-       {openTokenBox &&(
-          <ListToken tokenDate={tokenData} setopenTokenBox={setopenTokenBox}/>
-       )}
+      {/* //TOTENLIST COMPONENT */}
+      {openTokenBox && (
+        <ListToken tokenDate={tokenData} setOpenTokenBox={setOpenTokenBox} />
+      )}
     </div>
-    )
-}
+  );
+};
 
-export default NavigationBar
+export default NavigationBar;

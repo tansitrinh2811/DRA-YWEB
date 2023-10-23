@@ -9,7 +9,7 @@ describe("Swap Single Token", ()=>{
     let soloSwapToken;
     let accounts;
     let weth;
-    let dai;
+    let dai; 
     let usdc;
 
     before(async()=>{
@@ -57,7 +57,7 @@ describe("Swap Single Token", ()=>{
         await weth.approve(soloSwapToken.address, wethTokenamountInMax);
         //SWAP
         await soloSwapToken.soloSwapTokenExactOutput(daiTokenAmountOut, wethTokenamountInMax);
-        console.log(accounts[0].address)
+        //console.log(accounts[0].address)
         console.log("DAI balance", await dai.balanceOf(accounts[0].address))
     });
 });

@@ -1,0 +1,84 @@
+
+.SwToggle{
+    text-align: center;
+}
+
+.SwToggle_change_wrap{
+    position: relative;
+    top: 8px;
+    width: 75px;
+    display: inline-block;
+    text-align: left;
+}
+
+.SwToggle_checkbox{
+    display: none;
+}
+
+.SwToggle_label{
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0px solid wheat;
+}
+
+.SwToggle_inner{
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.SwToggle_inner:before,
+.SwToggle_inner:after{
+    color: red;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    height: 36px;
+    padding: 0;
+    line-height: 36px;
+    box-sizing: border-box;
+}
+
+.SwToggle_inner:before{
+    content: "Yes";
+    padding-left: 10px;
+    background-color: #76f382;
+    color: #1e1e1e;
+    
+
+}
+
+.SwToggle_inner:after{
+    content: "No";
+    padding-right: 10px;
+    background-color: #76f382;
+    color: #1e1e1e;
+    text-align: right;
+   
+
+}
+
+.SwToggle_change{
+    display: block;
+    width: 24px;
+    margin: 5px;
+    background-color: #e9f063;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    transition:  all 0.3s ease-in 0s;
+}
+
+.SwToggle_checkbox:checked + .SwToggle_label .SwToggle_inner{
+    margin-left: 0;
+}
+
+.SwToggle_checkbox:checked + .SwToggle_label .SwToggle_change{
+    right: 0;
+}

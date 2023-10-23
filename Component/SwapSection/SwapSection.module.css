@@ -1,0 +1,85 @@
+
+.SwapSection{
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.SwapSection_wrap{
+    border-radius: .5rem;
+    width: 30rem;
+    margin-top: 5rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+}
+
+.SwapSection_wrap_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.SwapSection_wrap_input{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #76f382;
+    border-radius: .5rem;
+    padding-left: 2rem;
+    margin-top: 1rem;   
+}
+
+.SwapSection_wrap_input input{
+    color: #76f382;
+    font-size: 1.2rem;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    
+}
+
+.SwapSection_wrap_input button{
+    display: flex;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 0;
+    background-color: #76f382;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: .5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SwapSection_wrap_btn{
+    background-color: #76f382;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+}
+
+.SwapSection_settings {
+
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 40em) {
+    .SwapSection{
+        width: 95%;
+    }
+    .SwapSection_wrap{
+        width: 95%;
+    }
+
+    .SwapSection_wrap_input input{
+        width: 50%;
+    }
+}

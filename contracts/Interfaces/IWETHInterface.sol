@@ -7,7 +7,7 @@ pragma solidity >= 0.7.0 < 0.9.0;
 
         function totalSupply() external view returns(uint);
 
-        function balance0d(address account) external view returns(uint);
+        function balanceOf(address account) external view returns(uint);
 
         function transfer(address recipient, uint amount) external view returns(uint);
 

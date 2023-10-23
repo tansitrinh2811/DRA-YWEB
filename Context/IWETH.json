@@ -109,7 +109,7 @@
           "type": "address"
         }
       ],
-      "name": "balance0d",
+      "name": "balanceOf",
       "outputs": [
         {
           "internalType": "uint256",

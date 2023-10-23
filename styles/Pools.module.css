@@ -1,0 +1,11 @@
+.Pool{
+    width: 65%;
+    margin:  5rem auto;
+    position: relative;
+}
+
+@media only screen and (max-width: 70em){
+    .Pool{
+        width: 95%;
+    }
+}

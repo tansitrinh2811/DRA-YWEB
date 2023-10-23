@@ -1,0 +1,70 @@
+
+.Tokens{
+    margin-block: 5rem ;
+}
+
+.Tokens_wrap{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.Tokens_wrap h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.Tokens_wrap_header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.Tokens_wrap_ether{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #1e1e1e;
+    line-height: 0;
+    border-radius: .5rem;
+    color: #76f382;
+    border: 1px solid #6d3253;
+}
+
+.Tokens_wrap_search{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1e1e1e;
+    padding: .2rem 2rem;
+    line-height: 0;
+    border-radius: .5rem;
+    width: 50%;
+    border: 1px solid #6d3253;
+}
+
+.Tokens_wrap_search input{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    color: #76f382;
+    width: 90%;
+}
+
+@media only screen and (max-width: 35em) {
+    .Tokens_wrap{
+        width: 90%;
+    }
+    .Tokens_wrap_header{
+        display: grid;
+    }
+    .Tokens_wrap_search{
+        padding: .5rem 2rem;
+        width: 100%;
+    }
+    .Tokens_wrap h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+}

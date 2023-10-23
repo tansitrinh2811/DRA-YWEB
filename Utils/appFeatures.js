@@ -12,6 +12,8 @@ import {
     MixedSwapTokenABI,
     IWETHAddress,
     IWETHABI,
+    storageUserDataAddrees,
+    storageUserDataABI
 } from '../Context/constants'
 //if wallet is connect, check
 export const checkWhenStartWalletConnected = async()=>{
@@ -74,7 +76,7 @@ export const connectingWithMoonToken = async()=>{
 }
 //soloSwaptoken fetching...
 export const fetchSoloSwapContract = (signerOrProvider) => 
-new ethers.Contract(SoloSwapTokenAddress, SoloSwapTokenABI, signerOrProvider)
+new ethers.Contract(SoloSwapTokenAddress, SoloSwapTokenABI , signerOrProvider)
 //connecting with  Singletoken contract
 export const connectingWithSoloSwapToken = async()=>{
     try{
@@ -85,7 +87,7 @@ export const connectingWithSoloSwapToken = async()=>{
         const contract = fetchSoloSwapContract(signer);
         return contract;
     }catch (error){
-        console.log(error);
+        console.log("Errrrrrrrr", error);
     }
 }
 //multiswaptoken fetching...
@@ -103,21 +105,21 @@ export const connectingWithSoloSwapToken = async()=>{
 //     }catch (error){
 //         console.log(error);
 //     }
-// }
+// } 
 //IWETHtoken fetching...
 export const fetchIWETHContract = (signerOrProvider) => 
 new ethers.Contract(IWETHAddress, IWETHABI, signerOrProvider)
 //connecting with IWETH token contract
 export const connectingWithIWETHToken = async()=>{
     try{
-        const web3modal = new Web3Modal();
-        const connection = await web3modal.connect();
+        const web3modal = new Web3Modal()
+        const connection = await web3modal.connect()
         const provider = new ethers.providers.Web3Provider(connection);
-        const signer = provider.getSigner();
-        const contract = fetchIWETHContract(signer);
-        return contract;
+        const signer = provider.getSigner()
+        const contract = fetchIWETHContract(signer)
+        return contract
     }catch (error){
-        console.log(error);
+        console.log(error)
     }
 }
 //DAItoken fetching...
@@ -127,12 +129,30 @@ new ethers.Contract(DAIAddress, IWETHABI, signerOrProvider)
 //connecting with DAI token contract
 export const connectingWithDAIToken = async()=>{
     try{
-        const web3modal = new Web3Modal();
-        const connection = await web3modal.connect();
+        const web3modal = new Web3Modal()
+        const connection = await web3modal.connect()
         const provider = new ethers.providers.Web3Provider(connection);
-        const signer = provider.getSigner();
-        const contract = fetchDAIContract(signer);
-        return contract;
+        const signer = provider.getSigner()
+        const contract = fetchDAIContract(signer)
+        return contract
+    }catch (error){
+        console.log(error);
+    }
+}
+
+//storage userdata fetching
+export const fetchStorageUserContract = (signerOrProvider) => 
+new ethers.Contract(storageUserDataAddrees, storageUserDataABI, signerOrProvider)
+//connecting with DAI token contract
+export const connectingWitStorageUserContract = async()=>{
+    try{
+        const web3modal = new Web3Modal()
+        const connection = await web3modal.connect()
+        const provider = new ethers.providers.Web3Provider(connection);
+        const signer = provider.getSigner()
+        const contract = fetchStorageUserContract
+        (signer)
+        return contract
     }catch (error){
         console.log(error);
     }

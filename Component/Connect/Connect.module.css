@@ -1,0 +1,50 @@
+
+.Connect{
+    position: absolute;
+    inset:  0% 0% 0% 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1e1e1e5a;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    z-index: 111111111;
+}
+
+.Connect_wrap{
+    background-color: #1e1e1e;
+    border-radius: .5rem;
+    padding: 2rem;
+
+}
+
+.Connect_wrap_heading{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Connect_wrap_heading_img {
+cursor: pointer;    
+}
+
+.Connect_wrap_heading p{
+    font-size: 1.2rem;
+}
+
+.Connect_wrap_wallet p{
+    color: #1e1e1e;
+    padding: 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color: #76f382;
+    font-weight: 700;
+    
+}
+
+.Connect_wrap_section{  
+    border:  1px solid #76f382;
+    border-radius: .5rem;
+    padding: 1rem;
+    line-height: 1.2;
+}
