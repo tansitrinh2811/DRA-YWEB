@@ -55,10 +55,10 @@ const ShowToken = ({ showTokenList }) => {
               <small>{el.name}</small>
               <small>{el.symbol}</small>
             </p>
-            <p>{el.volumeUSD}</p>
-            <p className={Style.hide}>{el.price}</p>
-            <p className={Style.hide}>{el.txCount}</p>
-            <p className={Style.hide}>{el.totalSupply}</p>
+            <p>{el.price}</p>
+            <p className={Style.hide}>{el.change}</p>
+            <p className={Style.hide}>{el.tvl} </p>
+            <p className={Style.hide}>{el.volume}</p>
           </div>
         ))} 
       </div>

@@ -13,31 +13,101 @@ const Tokens = () => {
             images: images.ethlg,
             name: "Ether",
             symbol: "ETH",
-            price: "$12,345",
-            change: "+ 2,345",
-            tvl: "$7894M",
-            volume: "$716.5M"
+            price: "$1,816.07",
+            change: "+ 7.06%",
+            tvl: "$1.1B",
+            volume: "$1.2B"
         },
         {
             number: 2,
             images: images.ethlg,
             name: "USDC Coin",
             symbol: "USDC",
-            price: "$12,345",
-            change: "+ 2,345",
-            tvl: "$7894M",
-            volume: "$716.5M"
+            price: "$1.00",
+            change: "+ 0.00%",
+            tvl: "$637.4M",
+            volume: "$771.3M"
         },
         {
             number: 3,
             images: images.ethlg,
-            name: "Siswap",
-            symbol: "SIS",
-            price: "$12,345",
-            change: "+ 2,345",
+            name: "Wrapped BTC",
+            symbol: "WBTC",
+            price: "$34,510",
+            change: "+ 11.48%",
             tvl: "$7894M",
             volume: "$716.5M"
-        }
+        },
+        {
+            number: 4,
+            images: images.ethlg,
+            name: "Tether USD",
+            symbol: "USDT",
+            price: "$1.00",
+            change: "+ 0.00%",
+            tvl: "$174.8M",
+            volume: "$226.4M"
+        },
+        {
+            number: 5,
+            images: images.ethlg,
+            name: "Dai Stablecoin",
+            symbol: "DAI",
+            price: "$1.00",
+            change: "+ 0.00%",
+            tvl: "$151.9M",
+            volume: "$54.0M"
+        },
+        {
+            number: 6,
+            images: images.ethlg,
+            name: "Pepe",
+            symbol: "PEPE",
+            price: "$0.000000956",
+            change: "+ 25.79%%",
+            tvl: "$12.9M",
+            volume: "$32.0M"
+        },
+        {
+            number: 7,
+            images: images.ethlg,
+            name: "ChainLink Token",
+            symbol: "LINK",
+            price: "$10.33",
+            change: "- 4.26%%",
+            tvl: "$17.7M",
+            volume: "$28.1M"
+        },
+        {
+            number: 8,
+            images: images.ethlg,
+            name: "Matic Token",
+            symbol: "MATIC",
+            price: "$0.650",
+            change: "+ 3.78%",
+            tvl: "$6.5M",
+            volume: "$2.4M"
+        },
+        {
+            number: 9,
+            images: images.ethlg,
+            name: "SHIBA IN",
+            symbol: "SHI",
+            price: "$0.000000761",
+            change: "+ 4.18%",
+            tvl: "$7.8M",
+            volume: "$1.7M"
+        },
+        {
+            number: 10,
+            images: images.ethlg,
+            name: "Wrapped SOL",
+            symbol: "SOL",
+            price: "$31.99",
+            change: "+ 3.72%",
+            tvl: "$215.7K",
+            volume: "$587.3K    "
+        },
     ])
 
     const [copyShowTokenList, setCopyShowTokenList] = useState(showTokenList)
@@ -77,7 +147,7 @@ const Tokens = () => {
     return (
         <div className={Style.Tokens}>
             <div className={Style.Tokens_wrap}>
-                <h2>Top tokens on Uniswap</h2>
+                <h2>Top tokens on DRA-YSWAP</h2>
                 <div className={Style.Tokens_wrap_header}>
                     <div className={Style.Tokens_wrap_ether}>
                         <p>

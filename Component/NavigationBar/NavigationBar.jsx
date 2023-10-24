@@ -57,7 +57,7 @@ const NavigationBar = () => {
             ))}
             <div>
               <a
-                href=""
+                href="http://localhost:3456"
                 target="_blank"
               >
                 <p className={Style.NavigationBar_wrap_left_menu_item}>Market</p>
