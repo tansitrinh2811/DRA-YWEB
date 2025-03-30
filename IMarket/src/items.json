@@ -1,0 +1,112 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "NFT_1",
+      "category": "nft",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b013e38f-b1f0-4193-8d90-acfeae93d61a/daomkeg-29aeeff9-f3f7-4366-9943-c1b003398c53.jpg/v1/fit/w_800,h_890,q_70,strp/coral_by_rossdraws_daomkeg-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODkwIiwicGF0aCI6IlwvZlwvYjAxM2UzOGYtYjFmMC00MTkzLThkOTAtYWNmZWFlOTNkNjFhXC9kYW9ta2VnLTI5YWVlZmY5LWYzZjctNDM2Ni05OTQzLWMxYjAwMzM5OGM1My5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.o3Ls_2GK4UHV6gkeAvvpY2I7VB3alZoOfFJYgVHJeR8",
+      "price": "3",
+      "rating": 4,
+      "stock": 100
+    },
+    {
+      "id": 2,
+      "name": "NFT_2",
+      "category": "nft",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0a9c9fab-87f0-4659-a31b-e1e930c397c7/deerao4-21db40c0-7feb-4da5-bde4-c3d1b3d8a30c.jpg/v1/fit/w_828,h_490,q_70,strp/ahri__true_damage_by_nixeu_deerao4-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzU3IiwicGF0aCI6IlwvZlwvMGE5YzlmYWItODdmMC00NjU5LWEzMWItZTFlOTMwYzM5N2M3XC9kZWVyYW80LTIxZGI0MGMwLTdmZWItNGRhNS1iZGU0LWMzZDFiM2Q4YTMwYy5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.xh8ftKIoMJQS6PauZ5Iq9-4wFpC3Xpsdmc2MNoTfgoQ",
+      "price": "8",
+      "rating": 5,
+      "stock": 60
+    },
+    {
+      "id": 3,
+      "name": "NFT_3",
+      "category": "nft",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52c4a3ad-d416-42f0-90f6-570983e36797/dbbdz01-a3a33727-7777-48b6-a65d-bd003381a6ef.jpg/v1/fit/w_800,h_534,q_70,strp/sombra__overwatch__by_ayyasap_dbbdz01-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTM0IiwicGF0aCI6IlwvZlwvNTJjNGEzYWQtZDQxNi00MmYwLTkwZjYtNTcwOTgzZTM2Nzk3XC9kYmJkejAxLWEzYTMzNzI3LTc3NzctNDhiNi1hNjVkLWJkMDAzMzgxYTZlZi5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.rLr5XCwyZaPFW7gxVbWtQ83sraTPJ8TSdCiAW_Tl3Iw",
+      "price": "6",
+      "rating": 3,
+      "stock": 2
+    },
+    {
+      "id": 4,
+      "name": "Phone",
+      "category": "smartdv",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9b21f62f-f001-42ac-baa1-df9882e35006/d93ooxd-32746228-01ba-4242-9b8d-9ae7fe815ae3.jpg/v1/fill/w_1024,h_768,q_75,strp/iphone_setup_by_charleypatton_d93ooxd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvOWIyMWY2MmYtZjAwMS00MmFjLWJhYTEtZGY5ODgyZTM1MDA2XC9kOTNvb3hkLTMyNzQ2MjI4LTAxYmEtNDI0Mi05YjhkLTlhZTdmZTgxNWFlMy5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ULKiyrtVY5Vd1rneZ30cbSmnbewm0YiB9JRnt4izUUc",
+      "price": "10",
+      "rating": 3,
+      "stock": 3
+    },
+    {
+      "id": 5,
+      "name": "Laptop",
+      "category": "smartdv",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/05de0574-8ab6-44b7-bd87-542b38242e2f/dfg2m6p-14c60c3c-3615-4308-b76b-9b234e6174f5.jpg/v1/fit/w_828,h_466,q_70,strp/laptop_by_vigneshwicki_dfg2m6p-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvMDVkZTA1NzQtOGFiNi00NGI3LWJkODctNTQyYjM4MjQyZTJmXC9kZmcybTZwLTE0YzYwYzNjLTM2MTUtNDMwOC1iNzZiLTliMjM0ZTYxNzRmNS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.idmyjIWch2aQMQywzdLxCSMoGacnpe6o-mYKLLzA_3A",
+      "price": "15",
+      "rating": 4,
+      "stock": 50
+    },
+    {
+      "id": 6,
+      "name": "TV",
+      "category": "smartdv",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e36b69a2-a218-4f43-97c0-dd316a21c699/dfw4h7x-d50cc47a-9776-48d6-8b33-32302667fec5.jpg/v1/fit/w_768,h_768,q_70,strp/futuristic_sci_fi_smart_tv_by_pickgameru_dfw4h7x-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvZTM2YjY5YTItYTIxOC00ZjQzLTk3YzAtZGQzMTZhMjFjNjk5XC9kZnc0aDd4LWQ1MGNjNDdhLTk3NzYtNDhkNi04YjMzLTMyMzAyNjY3ZmVjNS5qcGciLCJ3aWR0aCI6Ijw9NzY4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.xHmNfXn1u8edUqADXJlsbw9o6p14I9QcTLQqA0wJobs",
+      "price": "1.25",
+      "rating": 5,
+      "stock": 20
+    },
+    {
+      "id": 7,
+      "name": "Hero ",
+      "category": "game",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f2e35a44-fffd-4909-8e7a-8ec52934474c/dbpq57t-b5263b98-26e3-4826-9c0a-cc141cb95ee3.png/v1/fit/w_641,h_481/boku_no_hero_academia_season_one__dvd_cover__by_sylargreyp_dbpq57t-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDgxIiwicGF0aCI6IlwvZlwvZjJlMzVhNDQtZmZmZC00OTA5LThlN2EtOGVjNTI5MzQ0NzRjXC9kYnBxNTd0LWI1MjYzYjk4LTI2ZTMtNDgyNi05YzBhLWNjMTQxY2I5NWVlMy5wbmciLCJ3aWR0aCI6Ijw9NjQxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.1HYTzJh-CpSBnUCb0T0zZwAc849YmVgp18VQWaTxyLs",
+      "price": "0.25",
+      "rating": 4,
+      "stock": 15
+    },
+    {
+      "id": 8,
+      "name": "Titan",
+      "category": "game",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/006d725f-6449-48f6-bba6-db39bbe5331b/d6b3mim-fbf43c70-1fbb-45ca-add1-44b78ae8bd6f.jpg/v1/fill/w_1024,h_576,q_75,strp/destiny_by_vgwallpapers_d6b3mim-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvMDA2ZDcyNWYtNjQ0OS00OGY2LWJiYTYtZGIzOWJiZTUzMzFiXC9kNmIzbWltLWZiZjQzYzcwLTFmYmItNDVjYS1hZGQxLTQ0Yjc4YWU4YmQ2Zi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SkiyMiFqBsGygyMCHQMQJUXGNxj83H-Zx_ZqG9EXW5s",
+      "price": "0.52",
+      "rating": 4,
+      "stock": 0
+    },
+    {
+      "id": 9,
+      "name": "Coral Island",
+      "category": "game",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69ecec64-ee9f-4c3b-944b-a8e78c71df0e/dfqds9a-88eb9d92-4e51-4da5-9c54-ed64b730ca1a.png/v1/fit/w_512,h_512/icon_coral_island_by_einfachalonia_dfqds9a-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNjllY2VjNjQtZWU5Zi00YzNiLTk0NGItYThlNzhjNzFkZjBlXC9kZnFkczlhLTg4ZWI5ZDkyLTRlNTEtNGRhNS05YzU0LWVkNjRiNzMwY2ExYS5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.3NfoEr8Xf54ghYv78GZekfkN08Lz_7t_Mcu68GBQKvI",
+      "price": "0.15",
+      "rating": 3,
+      "stock": 4
+    },
+    {
+      "id": 10,
+      "name": "Dog",
+      "category": "pet",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c72039e4-7268-4089-a230-dee8ed566da1/d4rglpc-9b30dfc3-5a0e-4e96-8142-e8be6666df09.jpg/v1/fit/w_800,h_531,q_70,strp/husky_by_ksuksa_raykova_d4rglpc-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTMxIiwicGF0aCI6IlwvZlwvYzcyMDM5ZTQtNzI2OC00MDg5LWEyMzAtZGVlOGVkNTY2ZGExXC9kNHJnbHBjLTliMzBkZmMzLTVhMGUtNGU5Ni04MTQyLWU4YmU2NjY2ZGYwOS5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.rXyddcmbFUD2O6ozDYKRbVW5QQ8RdL2GEkQTb6mKa94",
+      "price": "3.50",
+      "rating": 4,
+      "stock": 5
+    },
+    {
+      "id": 11,
+      "name": "Cat",
+      "category": "pet",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06653b48-43c3-403f-9d72-c1c5519db560/dcxhf89-d11e6cc1-9f63-4abe-8d85-098da64d23ec.jpg/v1/fit/w_828,h_464,q_70,strp/maisa_and_aino_by_pajunen_dcxhf89-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Nzg0IiwicGF0aCI6IlwvZlwvMDY2NTNiNDgtNDNjMy00MDNmLTlkNzItYzFjNTUxOWRiNTYwXC9kY3hoZjg5LWQxMWU2Y2MxLTlmNjMtNGFiZS04ZDg1LTA5OGRhNjRkMjNlYy5qcGciLCJ3aWR0aCI6Ijw9MTQwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GigWbnVVbDpAo4hJTek9BJT_iRkt1Lc6XtYMByTir2Q",
+      "price": "3",
+      "rating": 5,
+      "stock": 5
+    },
+    {
+      "id": 12,
+      "name": "Hamster",
+      "category": "pet",
+      "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06abb60f-2c72-4898-a89c-cfa23535c164/dc1bzzg-5faa51c7-4e79-43fe-9219-26ffa2487bde.jpg/v1/fit/w_800,h_700,q_70,strp/cute_look_by_thunderi_dc1bzzg-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzAwIiwicGF0aCI6IlwvZlwvMDZhYmI2MGYtMmM3Mi00ODk4LWE4OWMtY2ZhMjM1MzVjMTY0XC9kYzFienpnLTVmYWE1MWM3LTRlNzktNDNmZS05MjE5LTI2ZmZhMjQ4N2JkZS5qcGciLCJ3aWR0aCI6Ijw9ODAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ClU5qAk4Wvrb93j13xjxkNHWyZ4slVkSllr3eJMBPuc",
+      "price": "1",
+      "rating": 5,
+      "stock": 0
+    }
+  ]
+}
